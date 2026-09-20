@@ -25,7 +25,7 @@ A Revenue Operations team needs a reliable read on pipeline health before settin
 | Median sales cycle | **45 days** |
 | Stale deals (Engaging > 90 days) | **1,465 — 92% of Engaging** |
 
-![Pipeline by stage](charts/01_pipeline_by_stage.png)
+01_pipeline_by_stage.png
 
 ## Key findings and recommendations
 
@@ -35,7 +35,7 @@ A Revenue Operations team needs a reliable read on pipeline health before settin
 **2. Win rate is not a product problem.** Win rates range only from 60.0% (GTK 500) to 64.8% (MG Special). Meanwhile, GTX Pro alone brings 35% of won revenue.
 → Focus enablement on sales process and qualification rather than product training, and set pipeline targets for second-tier products to reduce dependence on GTX Pro.
 
-![Products](charts/02_products.png)
+02_products.png
 
 **3. Pricing discipline is strong.** Even the product with the lowest price realization (GTX Plus Basic) closes at 98.5% of list price.
 → No new discount-approval steps are needed; keep price realization as a monitored KPI.
@@ -43,7 +43,7 @@ A Revenue Operations team needs a reliable read on pipeline health before settin
 **4. Performance gaps are about execution and concentration.** Three high-volume reps win more than 5 p.p. below the company average. The top rep generated $1.15M (11.5% of all won revenue) at a 63% win rate — right at the average, so the result comes from volume and deal selection rather than a higher close rate.
 → Run lost-deal reviews with the three reps, document the top rep's prospecting and deal-selection habits as a playbook, and treat the concentration of revenue in one person as a retention risk.
 
-![Rep performance](charts/05_rep_performance.png)
+05_rep_performance.png
 
 **5. CRM data quality needs guardrails.** Product names (`GTXPro` vs `GTX Pro`) and sector labels (`technolgy`) were inconsistent across tables, which silently breaks joins and reports.
 → Replace free-text fields with picklists and add validation rules.
@@ -52,7 +52,7 @@ A Revenue Operations team needs a reliable read on pipeline health before settin
 
 | Sales cycle | Monthly trend | Sectors |
 |---|---|---|
-| ![](charts/03_sales_cycle.png) | ![](charts/04_monthly_trend.png) | ![](charts/06_sectors.png) |
+03_sales_cycle.png | 04_monthly_trend.png | 06_sectors.png) |
 
 ## Approach
 
